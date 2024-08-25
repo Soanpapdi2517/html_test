@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>
+        <!-- Don't read -->
+    Learning HTML
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, dolore! <br><br><br>Fuga labore molestiae eius aperiam temporibus laboriosam voluptates, ad earum sunt similique adipisci, repellat, exercitationem <hr>tenetur distinctio harum expedita quod praesentium? Illum saepe eaque repellat nostrum, obcaecati cupiditate reiciendis quam vero esse, iusto consectetur alias, modi perspiciatis. Quaerat, odit harum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus placeat accusantium nam!</p>
+    <hr> <h3>IMAGE TAG USE</h3>
+    <img src="images&videos/Thuglife.png" alt="Thuglife pic"
+    height="150px">
+    <br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoKegSaYaKRbwllyrma5TXF8zUhbSeLYru0A&s" alt="Thuglife">
+    <hr>
+    <h3>VIDEO TAG USE</h3>
+    <video src="images&videos/Ben10meme.mp4" height="300px" controls autoplay muted></video>
+    <hr>
+    <h3>ANCHOR TAG USE</h3>
+    <a href="https://www.google.com/" target="_blank"><button aria-setsize="300px">Google</button></a>
+    <a href="https://www.instagram.com">instagram</a>
+    <hr>
+    <h3>ANCHOR TAG WITH images</h3>
+    <a href="https://www.youtube.com"><img src="https://yt3.googleusercontent.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s900-c-k-c0x00ffffff-no-rj" alt="Youtube" height="100px"></a>
+    <hr>
+    <h3>ANCHOR TAG WITH videos</h3>
+    <a href="https://www.instagram.com"><video src="images&videos/vecteezy_animated-social-media-instagram-opening-logo-with-green_10752129.mov" alt="instagram" height="100px"></a>
+    <hr>
+    <h3>bold, itallic, strikethrough, underline</h3>
+    <p>“Man is <b>made</b> by his <i>belief</i>. As he believes, so <u>he is</u>”
+        <br>
+        <br>
+    “One who sees <s>inaction</s> in action, and <s>action</s> in inaction, is intelligent among men.”
+    <hr>    
+    </p>
+    <h3>Pre Tag</h3>
+    <p>
+        Dear Sir
+        bhad me jao
+        Thank you
+    </p>
+    <pre>
+        Dear Sir
+
+        THooo,
+
+        Thank you
+    </pre>
+    <hr>
+    <h3>
+        Superscript
+    </h3>
+    <p>(a+b)2 = a2 + b2 + 2ab</p>
+    <p>(a+b)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + 2ab</p>
+    <hr>
+    <h3>subscript</h3>
+    <p>CH4 + O2 + heat => H2O + CO2</p>
+    <p>CH<sub>4</sub> + O<sub>2</sub> + heat => H<sub>2</sub>O + CO<sub>2</sub></p>
+    <hr>
+    <h3>ordered list</h3>
+    <ol type="i">
+        <li>C language</li>
+        <li>C++</li>
+        <li>python</li>
+        <li>java</li>
+        <li>html</li>
+        <ol>
+            <li>basics</li>
+            <li>revision</li>
+        </ol>
+        <li>css</li>
+    </ol>
+    <hr>
+    <h3>unordered list</h3>
+    <ul type="">
+        <li>
+            css
+        </li>
+        <li>C language</li>
+        <li>python</li>
+        <li>Flutter</li>
+    </ul>
+    <hr>
+    <h3>TABLES</h3>
+    <table border="1">
+        <caption>Students Information and interests</caption>
+        <tr>
+            <th colspan="4">This is what is trending</th>
+        </tr>
+        <tr>
+            <th>
+                NAME
+            </th>
+            <th>
+                Class
+            </th>
+            <th>
+                Favourite Game
+            </th>
+            <th>Contact number</th>
+        </tr>
+        <tr>
+            <td>
+                Rakesh
+            </td>
+            <td>
+                2nd
+            </td>
+            <td>
+                Cricket
+            </td>
+            <td>
+                5266972392
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Rajesh
+            </td>
+            <td>
+                3rd
+            </td>
+            <td>
+                Football
+            </td>
+            <td>
+                9666662585
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Ramesh
+            </td>
+            <td>
+                8th
+            </td>
+            <td>
+                chess
+            </td>
+            <td>
+                7892445615
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Forms and learning</h3>
+    <form action="/contactme.php">
+        <label for="username">Username: </label>
+       <input id="username" type="text" placeholder="Enter username" required><br>
+       <label for="password">Password: </label>
+       <input id="password" type="password" placeholder="Enter your password" required><br>
+       <label for="date">DOB: </label>
+       <input id="date" type="datetime-local"><br>
+       <label for="fil">select the file: </label>
+       <input id="fil" type="file">
+       <br>
+       <label for="color">Select Your Fav color: </label>
+       <input type="color" id="color">
+       <br>
+       Price Range: <input type="range" min="0" max="100">
+       <br>
+       Gender: <br>
+       <label for="male">Male: </label><input id="male" type="radio" name="Gender" value="male">
+       <br>
+       <label for="female">female: </label>
+        <input id="female" type="radio" name="Gender" value="female">
+        <label for="other">other: </label>
+        <input id="other" type="radio" name="Gender" value="other">
+       <br>
+       <hr>
+       Favourite fruit: <br>
+       <label for="apple">Apple</label>
+       <input id="apple" type="checkbox" name="favfru" value="Apple">
+       <label for="banana">Banana</label>
+       <input id="banana" type="checkbox" name="favfru" value="Banana">
+       <label for="watermelon">Watermelon</label>
+       <input id="watermelon" type="checkbox" name="favfru" value="Watermelon">
+       <br>
+       <label for="country">Select your south asian nation</label>
+       <select name="country" id="country">
+        <option value="India">India</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="Sri Lanka">Sri Lanka</option>
+        <option value="Nepal">India</option>
+       </select>
+       <br>
+       <textarea name="story" id="story" rows="4" cols="20" placeholder="write your story"></textarea>
+       <br>
+       <input type="submit" value="Login">
+    </form>
+    <iframe width="560" height="200" src="https://www.youtube.com/embed/rklidcZ-aLU?si=zL8tIRtFnqxOP_Z6"  allowfullscreen></iframe>
+</body>
+</html>
